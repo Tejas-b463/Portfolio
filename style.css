@@ -10,7 +10,7 @@
     }
     
     h2 {
-        color: #247a4d;
+        color: #00b4d8;
     }
     
     * {
@@ -220,7 +220,11 @@
         text-align: center;
         justify-content: center;
         display: flex;
+        cursor: pointer;
     }
+    /* .project .icon:hover {
+        text-decoration: underline;
+    } */
     
     .project-section {
         padding: 0 6rem;
@@ -237,9 +241,15 @@
     }
     
     .sub-contact {
-        padding: 25px 0;
+        padding: 20px 0;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .location,
+    .mail {
+        padding: 20px 0;
+        cursor: pointer;
     }
     /* Footer Section */
     
@@ -312,7 +322,7 @@
             grid-template-columns: repeat(1, 1fr);
         }
         /* contact */
-        .contact {
+        .sub-contact {
             padding: 2rem 1rem 5rem 1rem;
             text-align: center;
             grid-template-columns: repeat(1, 1fr);
