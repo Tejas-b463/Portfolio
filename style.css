@@ -111,7 +111,7 @@
     } */
     
     .section__container {
-        min-height: 100vh;
+        min-height: 120vh;
         max-width: var(--max-width);
         margin: auto;
         padding: 6rem;
@@ -155,7 +155,6 @@
     }
     
     .description {
-        line-height: 1.5rem;
         /* color: var(--text-light); */
         margin-bottom: 2rem;
     }
@@ -320,8 +319,15 @@
             padding: 2rem 1rem 5rem 1rem;
             text-align: center;
             grid-template-columns: repeat(1, 1fr);
+            gap: 1rem;
+        }
+        .project-section {
+            padding: 0 2rem;
         }
         /* contact */
+        .contact {
+            padding: 0 2rem;
+        }
         .sub-contact {
             padding: 2rem 1rem 5rem 1rem;
             text-align: center;
