@@ -99,11 +99,30 @@
         color: var(--text-dark);
         transition: 0.3s;
     }
+    /* ul li a:hover {
+        text-decoration: underline;
+         border-top-color: var(--secondary-color);
+        border-bottom-color: var(--secondary-color); 
+         color: var(--secondary-color); 
+    } */
+    /* Dark mode Button */
     
-    ul li a:hover {
-        border-top-color: var(--secondary-color);
-        border-bottom-color: var(--secondary-color);
-        /* color: var(--secondary-color); */
+    button {
+        padding: 10px 20px;
+        font-weight: 700;
+        border: none;
+        font-size: 25px;
+        cursor: pointer;
+        background-color: white;
+    }
+    /* button:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border-radius: 5px;
+    } */
+    
+    .dark-mode {
+        background: #000;
+        color: #ffffff;
     }
     /* Home Section */
     /* .section {
@@ -162,10 +181,11 @@
     .action__btns {
         display: flex;
         gap: .5rem;
+        font-size: 30px;
     }
     
-    .action__btns i {
-        font-size: 30px;
+    .action__btns a {
+        color: black;
     }
     
     .image {
@@ -190,6 +210,11 @@
     .about img {
         width: min(25rem, 90%);
         border-radius: 5%;
+    }
+    
+    .about img:hover {
+        border-radius: 0;
+        transition: all .5s ease;
     }
     /* project */
     
@@ -333,25 +358,4 @@
             text-align: center;
             grid-template-columns: repeat(1, 1fr);
         }
-    }
-    /* Dark mode Button */
-    
-    button {
-        padding: 10px 20px;
-        font-weight: 700;
-        border: none;
-        font-size: 20px;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        cursor: pointer;
-        border-radius: 10px;
-    }
-    
-    button:hover {
-        color: white;
-        background-color: black;
-    }
-    
-    .dark-mode {
-        background: #000;
-        color: #ffffff;
     }

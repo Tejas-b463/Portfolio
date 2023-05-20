@@ -31,10 +31,10 @@ const btn = document.getElementById('mybtn');
 
 // ✅ Toggle button text on click
 btn.addEventListener('click', function handleClick() {
-    const initialText = 'Dark';
+    const initialText = '';
 
     if (btn.textContent.toLowerCase().includes(initialText.toLowerCase())) {
-        btn.textContent = 'Light';
+        btn.textContent = '';
     } else {
         btn.textContent = initialText;
     }
