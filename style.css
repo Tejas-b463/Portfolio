@@ -54,7 +54,7 @@
     .nav__content {
         max-width: var(--max-width);
         margin: auto;
-        padding: 1.5rem 1rem;
+        padding: 1rem 1rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -129,11 +129,15 @@
         background-color: var(--extra-light);
     } */
     
+    .section {
+        height: 90vh;
+    }
+    
     .section__container {
-        min-height: 120vh;
+        min-height: auto;
         max-width: var(--max-width);
         margin: auto;
-        padding: 6rem;
+        padding: 12rem 6rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 3rem;
@@ -141,7 +145,7 @@
     
     .tech {
         grid-column: 1/3;
-        padding-left: 17rem;
+        padding-left: 20rem;
     }
     
     .tech img {
@@ -324,7 +328,11 @@
             margin: auto;
         }
         .tech {
-            padding: 0;
+            padding-left: 0;
+        }
+        .move-text {
+            padding-bottom: 2rem;
+            padding-top: 10rem;
         }
         /* About */
         .about {
@@ -349,6 +357,9 @@
         .project-section {
             padding: 0 2rem;
         }
+        .content {
+            margin-left: 3rem;
+        }
         /* contact */
         .contact {
             padding: 0 2rem;
@@ -358,4 +369,14 @@
             text-align: center;
             grid-template-columns: repeat(1, 1fr);
         }
+        .description {
+            margin-bottom: 0;
+        }
+        .description h2 {
+            margin-left: 1rem;
+        }
+    }
+    
+    .action__btns a {
+        color: white;
     }
