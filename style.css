@@ -188,10 +188,6 @@
         font-size: 30px;
     }
     
-    .action__btns a {
-        color: black;
-    }
-    
     .image {
         display: grid;
         place-items: center;
@@ -315,6 +311,9 @@
         ul li a {
             font-size: 1.25rem;
         }
+        nav .logo a {
+            font-size: 1.5rem;
+        }
         /* Home */
         .section__container {
             padding: 10rem 1rem 5rem 1rem;
@@ -336,7 +335,7 @@
         }
         /* About */
         .about {
-            padding: 0 1rem 5rem 1rem;
+            padding: 20rem 1rem 5rem 1rem;
             text-align: center;
             grid-template-columns: repeat(1, 1fr);
             row-gap: 1rem;
@@ -375,8 +374,4 @@
         .description h2 {
             margin-left: 1rem;
         }
-    }
-    
-    .action__btns a {
-        color: white;
     }
