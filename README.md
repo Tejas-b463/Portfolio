@@ -1,2 +1,7 @@
-# tejas.dev
-A dynamic and responsive portfolio displaying my expertise in front-end development, sleek designs, and intuitive user interfaces that bring websites to life and engage users effectively.
+# Portfolio 🚀
+
+"My portfolio website: See my cool projects and skills in web design. It's easy to navigate and looks great on any device. Check it out now!"
+
+
+  <img src="./img/portfolio.png" width="750">
+
