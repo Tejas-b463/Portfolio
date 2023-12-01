@@ -145,11 +145,13 @@
     
     .tech {
         grid-column: 1/3;
-        padding-left: 20rem;
+        padding-left: 10rem;
     }
     
     .tech img {
         margin-top: 10px;
+        width: 60px;
+        margin-left: 10px;
     }
     
     .content {
@@ -178,14 +180,19 @@
     }
     
     .description {
-        /* color: var(--text-light); */
+        color: var(--text-light);
         margin-bottom: 2rem;
+        font-size: 20px;
     }
     
     .action__btns {
         display: flex;
         gap: .5rem;
         font-size: 30px;
+    }
+    
+    .action__btns a {
+        color: #495057;
     }
     
     .image {
@@ -207,14 +214,19 @@
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .about img {
-        width: min(25rem, 90%);
-        border-radius: 5%;
+    .about .about-img img {
+        width: min(20rem, 90%);
     }
     
-    .about img:hover {
-        border-radius: 0;
-        transition: all .5s ease;
+    .about-links a {
+        color: #495057;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+    
+    .about-description {
+        color: var(--text-light);
+        font-size: 18px;
     }
     /* project */
     
@@ -245,6 +257,12 @@
         justify-content: center;
         display: flex;
         cursor: pointer;
+    }
+    
+    .project .icon a {
+        color: #495057;
+        font-size: 22px;
+        font-weight: bold;
     }
     /* .project .icon:hover {
         text-decoration: underline;
