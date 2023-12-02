@@ -52,7 +52,7 @@ nav {
     left: 0;
     z-index: 99;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    height: 85px;
+    height: 75px;
     background-color: white;
 }
 
@@ -124,25 +124,6 @@ button {
     background-color: white;
 }
 
-
-/* button:hover {
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-        border-radius: 5px;
-    } */
-
-.dark-mode {
-    background: #000;
-    color: #ffffff;
-}
-
-
-/* Home Section */
-
-
-/* .section {
-        background-color: var(--extra-light);
-    } */
-
 .section {
     height: 90vh;
 }
@@ -185,7 +166,6 @@ button {
     font-size: 2.8rem;
     font-weight: 800;
     line-height: 3rem;
-    /* color: var(--text-dark); */
     margin-bottom: 1rem;
 }
 
@@ -206,7 +186,7 @@ button {
 }
 
 .action__btns a {
-    color: #495057;
+    color: black;
 }
 
 .image {
